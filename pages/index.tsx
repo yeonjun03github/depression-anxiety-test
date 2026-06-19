@@ -6,6 +6,10 @@ const DepressionAnxietyTest = () => {
   const [answers, setAnswers] = useState({});
   const [showResults, setShowResults] = useState(false);
 
+  useEffect(() => {
+    fetch('/api/log-visit')
+  }, [])
+
   const questions = [
     {
       id: 1,
