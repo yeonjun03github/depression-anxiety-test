@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ChevronRight, ChevronLeft, BarChart3, AlertTriangle, Phone, AlertCircle } from 'lucide-react';
 
 const DepressionAnxietyTest = () => {
